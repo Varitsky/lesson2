@@ -26,8 +26,8 @@ public class Main {
         System.out.print("\n" + "\n" + "Filled Array:                    ");
         int[] arr8 = new int[8];
         for (int i = 0; i < arr8.length; i++) {
-            arr[i + 1] = arr[i] + 3;
-            System.out.print(arr[i] + " ");
+            arr8[i + 1] = arr8[i] + 3;
+            System.out.print(arr8[i] + " ");
         }
         //Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ]
         // Пройти по нему циклом, и числа меньшие 6 умножить на 2;
