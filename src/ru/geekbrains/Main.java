@@ -25,7 +25,7 @@ public class Main {
         // С помощью цикла заполнить его значениями 0 3 6 9 12 15 18 21;
         System.out.print("\n" + "\n" + "Filled Array:                    ");
         int[] arr8 = new int[8];
-        for (int i = 0; i < arr8.length; i++) {
+        for (int i = 0; i < arr8.length-1; i++) {
             arr8[i + 1] = arr8[i] + 3;
             System.out.print(arr8[i] + " ");
         }
